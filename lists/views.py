@@ -15,4 +15,4 @@ def view_list(request):
 
 
 def new_list(request):
-    pass
+    return redirect('/lists/the-only-list-in-the-world/')
